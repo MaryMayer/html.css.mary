@@ -1,14 +1,17 @@
-*{
+/* 1QCQ */*{
     margin: 0;
     padding: 0;
 }
-
-.cabeçalho {
+body{
+    font-family: 'Dancing Script', cursive;
+}
+   
+.cabeçalho{
     background-color: #92C9CC;
     color: white;
     display: flex;
     justify-content: space-around;
-    align-items:center ;
+    padding: 24px 0;
     padding: 24px 0;
 }
 
@@ -18,14 +21,50 @@ width: 15%;
 
 .cabeçalho-lista-item{
     display: inline-block;
-    margin: 0 60px;
-    font-size: 24px;
+    margin: 60px 60px;
+    font-size: 50px;
 }
 
 .escola-imagem{
-    width: 25%;
+    width: 28%;
 }
 
 .escola{
-    background-image: linear-gradient(#92C9CC, );
+    background-image: linear-gradient(#92C9CC,rgb(69, 177, 144));
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+.escola-titulo{
+    padding: 30px 0;
+}
+
+.escola-div-conteudo{
+    width: 40%;
+    font-size: 35px;
+}
+
+.estudante-imagem{
+    width: 220px;
+}
+
+.estudante-icone{
+    width: 40px;
+}
+
+.estudante-div{
+   text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px;
+    font-size: 55px;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
 }
